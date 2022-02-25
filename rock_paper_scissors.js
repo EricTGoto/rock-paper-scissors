@@ -88,30 +88,6 @@ buttons.forEach(button => {
 const body = document.querySelector("body");
 body.style.backgroundColor = '#9BC1BC';
 
-//const header = document.createElement('div');
-// header.style.backgroundColor =  '#F4F1BB';
-// header.style.width = '100vw';
-// header.style.height = '15vh';
-// header.style.display = 'flex';
-// header.style.alignItems = 'center';
-// header.style.justifyContent = 'center';
-// header.textContent = "ROCK PAPER SCISSORS";
-// header.style.fontSize = "30px";
-// header.style.fontWeight = 'bold';
-// header.style.fontFamily = "'Roboto', sans-serif";
-//body.insertBefore(header, container);
-
-const footer = document.createElement('div');
-footer.textContent = "Eric Goto 2022";
-footer.style.fontSize = '16px';
-footer.style.backgroundColor = '#ED6A5A';
-footer.style.width = '100vw';
-footer.style.height = '10vh';
-footer.style.display= 'flex';
-footer.style.justifyContent = 'center';
-footer.style.alignItems = 'center';
-body.appendChild(footer);
-
 const result = document.querySelector(".result");
 result.textContent = "Click to Play!";
 result.style.fontSize = "32px";
