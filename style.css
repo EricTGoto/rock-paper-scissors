@@ -9,6 +9,17 @@ body {
     margin: 0;
 }
 
+.header {
+    background-color: #F4F1BB;
+    width: 100vw;
+    height:15vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
 .container {
     display: flex;
     flex-direction: column;
