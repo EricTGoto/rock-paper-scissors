@@ -16,12 +16,8 @@ body {
     gap: 20px;
 }
 
-.image {
-    width: 250px;
-    height: 250px;
-}
-
 .buttonbackground {
+    border-radius: 10px;
     background-size: 225px;
     background-position: center;
     background-repeat: no-repeat;
