@@ -4,7 +4,8 @@ let playerScore = 0;
 let computerScore = 0;
 
 function playRound(e) {
-    const choice = e.explicitOriginalTarget.parentElement.className;
+    space_position = e.target.className.search(" ")
+    let choice = e.target.className.substring(0, space_position)
     const computerAction = convertNumToRockPaperScissors(computerPlay());
     const capitalizedWord = capitalizeFirstLetter(choice);
 

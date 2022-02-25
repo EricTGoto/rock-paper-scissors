@@ -20,3 +20,23 @@ body {
     width: 250px;
     height: 250px;
 }
+
+.buttonbackground {
+    background-size: 225px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+.rock {
+    background-image: url('images/rock.png');
+}
+
+.paper {
+    background-image: url('images/paper.png')
+}
+
+.scissors {
+    background-image: url('images/scissors.png');
+}
